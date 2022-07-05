@@ -14,6 +14,12 @@ Repository to save interesting examples &amp; documentation about Node
   *  [no-cycle eslint rule](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md)
   *  [PSA: Don't make the same mistake I did. Avoid circular dependencies from the start.](https://www.reddit.com/r/typescript/comments/ra4wah/psa_dont_make_the_same_mistake_i_did_avoid/)
   *  [Eliminate Circular Dependencies from Your JavaScript Project](https://spin.atomicobject.com/2018/06/25/circular-dependencies-javascript/)
+*  ## [JSONPLACEHOLDER](https://github.com/typicode/jsonplaceholder)
 
 # AWS
 * [AWS EXPERIENCE](https://aws-experience.com/)
+
+# Links interesantes
+* [JSONPLACEHOLDER](https://github.com/typicode/jsonplaceholder)
+* [Json placeholder web to create fake endpoints](https://jsonplaceholder.typicode.com/)
+* [Albums](https://jsonplaceholder.typicode.com/albums/)
