@@ -8,7 +8,8 @@ Web with free books and documentation referenced by openssl [FeistyDuck](https:/
 * ### [Let's encrypt](https://letsencrypt.org/)
 * ### [Tutorial sobre como usar letsencrypt bot](https://dev.to/omergulen/step-by-step-node-express-ssl-certificate-run-https-server-from-scratch-in-5-steps-5b87)
 
-## Self-signed certificates
+## <details><summary>Self-signed certificates</summary>
+
 [Example](https://adamtheautomator.com/https-nodejs/)
 1. First, generate a key file used for self-signed certificate generation with the command below. The command will create a private key as a file called key.pem.
 ```
@@ -28,3 +29,15 @@ Tambien piden una contrase;a, que normalmente siver para modificar el certificad
 ```
 openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
 ```
+
+</details>
+
+## Command to get an automated certificate with certbot
+`certbot -d jesusredondo.com --manual --preferred-challenges dns certonly`
+
+It saves the certificates in a path that can't be reached.
+You need to use   
+`sudo cat /etc/letsencrypt/live/jesusredondo.com/fullchain.pem`
+
+
+## [Web to check certificates](https://www.sslshopper.com/ssl-checker.html#hostname=www.jesusredondo.com)

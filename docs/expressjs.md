@@ -20,3 +20,5 @@ Para poder abrir localhost usando https debemos setear un flag de Chrome
 chrome://flags/#allow-insecure-localhost
 ```
 Al reiniciar chrome ya podremos ver el servidor funcionando con https
+
+## [Template Engines](https://expressjs.com/en/resources/template-engines.html)
