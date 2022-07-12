@@ -12,3 +12,11 @@ https
   });
 ```
 Sin embargo, todavia no estamos usando una comunicacion encriptada.
+Para habilitar la comunicacion encriptada mirar la documentacion sobre [certificados](./certificates)
+
+
+Para poder abrir localhost usando https debemos setear un flag de Chrome
+```
+chrome://flags/#allow-insecure-localhost
+```
+Al reiniciar chrome ya podremos ver el servidor funcionando con https

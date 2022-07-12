@@ -3,6 +3,15 @@ const https = require('https');
 const express = require('express');
 const app = express();
 
+app.enable('trust proxy');
+// To redirect the traffic to https
+app.use(function (request, response, next) {
+  if (process.env.NODE_ENV != 'development' && !request.secure) {
+    return response.redirect('https://' + request.headers.host + request.url);
+  }
+  next();
+});
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
