@@ -5,9 +5,9 @@ Repository to save interesting examples &amp; documentation about Node
 * [Dx Tips](https://dx.tips/)
 * [Hashnode](https://hashnode.com/)
 
-* ## [Expressjs](./docs/expressjs)
-* ## [Certificates](./docs/certificates)
-  * ### [Let's Encrypt](./docs/letsencrypt)
+* ## [Expressjs](./docs/expressjs.md)
+* ## [Certificates](./docs/certificates.md)
+  * ### [Let's Encrypt](./docs/letsencrypt.md)
 * ## Circular Dependencies
   *  [How to fix nasty circular dependency issues once and for all in JavaScript & TypeScript](https://medium.com/visual-development/how-to-fix-nasty-circular-dependency-issues-once-and-for-all-in-javascript-typescript-a04c987cf0de)
   *  [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
