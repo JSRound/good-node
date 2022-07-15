@@ -5,7 +5,7 @@ Repository to save interesting examples &amp; documentation about Node
 * [Dx Tips](https://dx.tips/)
 * [Hashnode](https://hashnode.com/)
 
-* ## [Fake mailer](https://mailtrap.io/)
+* ## [Mailers](./docs/mailers.md)
 * ## [Expressjs](./docs/expressjs.md)
 * ## [Certificates](./docs/certificates.md)
   * ### [Let's Encrypt](./docs/letsencrypt.md)
