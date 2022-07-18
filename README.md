@@ -1,6 +1,7 @@
 # good-node
-Repository to save interesting examples &amp; documentation about Node
+Repository to save interesting examples & documentation about Node
 
+# [The time I messed up](https://kentcdodds.com/blog/the-time-i-messed-up)
 # [The End of Localhost](https://dx.tips/the-end-of-localhost)
 * [Dx Tips](https://dx.tips/)
 * [Hashnode](https://hashnode.com/)
