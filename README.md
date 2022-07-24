@@ -1,6 +1,7 @@
 # good-node
 Repository to save interesting examples & documentation about Node
 
+# [Solve installing global packages error. Uninstall Node](./docs/uninstall.md)
 # [The time I messed up](https://kentcdodds.com/blog/the-time-i-messed-up)
 # [The End of Localhost](https://dx.tips/the-end-of-localhost)
 * [Dx Tips](https://dx.tips/)
